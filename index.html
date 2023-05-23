@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ======== METADATA AREA ======== -->	
+<!-- ======== Description:  Metadata Area for Homepage Future Facing comments included======== -->	
+<head> 
+	<meta charset="UTF-8">  
+	<meta name="author" content='Bradley Grove - 10450326'> <!-- Author info-->
+	<meta name="description" content="Destiny 2 Game Resource Site">
+	<title> Destiny 2 Resources &#38;  Guides</title> <!-- Tab name for page -->
+	<link rel="icon" href=" images/destiny-icons-master/general/pursuits.svg" type="image/svg"  > <!-- Generalised symbol to tie tab to logo of site -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet"> <!-- Font -->
+	<link rel="stylesheet" href="styles.css" > 
+</head>
+
+<body>
+<div class = "wrapper"> <!-- Wrapper ID for Main DIV TAG - Highest DIV in HTML--> 
+
+<!-- ======== HEADER AREA ======== -->
+<!-- ======== Description:  Header Area for Logo ======== -->	
+	<header>
+		<img src="images/logo.svg" alt="Destiny 2 Resource & Guides" width="500" height="500" > <!-- Logo -->
+		<h1> Destiny 2 Resources &#38;  Guides </h1> <!-- Header Text : Will Likely be hidden with CSS - still important if image does not load-->
+	</header>
+	
+	
+<!-- ======== NAVIGATION AREA ======== -->
+<!-- ======== Description:  Navigation Area for Homepage - includes links to strcuture pages prior to breakdown ======== -->
+<!-- ======== Possible improvements:  Dropdown links to specific pages assuming prior navigation knowledge======== -->	
+	<nav>
+		<ul>
+			<li><a href= "about.html" title="About Us" > About Us</a></li> <!-- use of li to list these links as they will be in the navigational bar --> 
+			<li><a href= "resources.html" title="Destiny 2 Resources" >Destiny 2 Resources</a> </li> <!-- use of title to enhance ability to navigate and accessibility in the navigational bar --> 
+			<li><a href= "guides.html" title="Destiny 2 Guides" >Destiny 2 Guides</a> </li>
+			<li><a href= "contact.html" title="Click here to talk to us"> Contact Us</a></li>
+			<li><a href= "credits.html" title="Click here to see content credit"> Credits </a></li>
+		</ul>
+	</nav>
+
+
+<main>
+<!-- ======== CONTENT AREA 1 ======== -->
+<!-- ======== Description:  Content Area 1 for Homepage - includes images and 3 messages ======== -->
+<!-- ======== Possible improvements:  Structuring to form better boxes for the messages ? ======== -->	
+	<div class = "container" > <!-- container class to house image and other classes to overlay text -->
+		<article>
+		
+			<section id = "welcome">
+				<img src="images/s_keep_banner.jpg" alt="banner" width="1440" height="700"> <!-- Main Banner Image that has Text Overlay of Welcome Message-->
+				<div class = "centered"> <!-- centered class to delimit where text exists in container parent -->
+					<h2>Welcome Guardian</h2>
+						<p>Eyes up. Your Journey Starts Here.
+						</p>
+				</div>
+			</section>
+		</article>
+	</div>
+	
+	<article id = "players">	
+		<section>
+			<h2>To All Lights</h2> <!-- Message to NEW players -->
+				<p>Allow this to be your guide to the stars. Find your journey and discover what lies ahead for your story. Explore the the Resources and Guides Below. 
+				</p>
+		</section>
+		
+		
+		<section>
+			<h2>Veteran Lights</h2> <!-- Message to VETERAN/RETURNING players -->
+				<p>Welcome back Guardian. 
+				</p>
+		</section>
+	</article>
+	
+<!-- ======== CONTENT AREA 2 ======== -->
+<!-- ======== Description:  Content Area 2 for Homepage - includes 2 icons + Header texts + Small descriptions of what they are ======== -->
+<!-- ======== Possible improvements:  Better structure or format? ======== -->	
+	<article id= "resources" >
+		<a href="resources.html" title="Resources" rel="external" target="_blank"> 
+			<img src="images/bookmarks.svg" alt="Destiny 2 Guides" width="80" height="80" >
+			<!-- clickable icon to resourcing : opens to new tab to enhance back track as it is new topic area. Opening in tab leaves no method backtrack bad page design -->
+		</a>
+		<section> 
+			<h2>Resources</h2> <!-- Resource Heading -->
+				<p>Here you can find an vast athenaeum of resources for your journeys ahead. Resources cover Raids, Dungeons & End Game content. 
+				</p>
+				<a href="resources.html" title="Resources" rel="external" target="_blank"> Learn More</a> <!-- clickable link to resourcing : opens to new tab as it is new topic area. Link used in case ICON is not obivously shown or missed -->
+		</section>
+	</article>
+	
+	<article id= "guides">
+		<a href="guides.html" title="Guides" rel="external" target="_blank"> <!-- clickable icon to guides -->
+				<img src="images/map2.svg" alt="Destiny 2 Guides" width="80" height="80">
+		</a>
+		<section> 
+			<h2>Guides</h2>
+				<p>Here you can find step by step breakdowns of each class and subclass. Detailed breakdowns of each class and subclass are provided to enhance the knowledge of each class. Each to a role and role to a duty.
+				</p>
+				<a href="guides.html" title="Guides" rel="external" target="_blank"> Learn More</a>
+		</section>
+	</article>
+	
+</main>
+
+<!-- ============ SIDEBAR AREA ================= -->
+<!-- ======== Description:  Sidebar for Homepage - includes quote ======== -->
+<!-- ======== Possible improvements:  Maybe a link to the Destiny 2 video of Zavala saying or somehthing interesting, maybe an image ======== -->	
+	<aside id= "qotd">
+		<section> 
+			<h2>Quote of the Day</h2> <!-- A famous quote from the Destiny 2 Franchise that was said by the late Lance Reddick (voice actor of Commander Zavala) -->
+		</section>
+				
+		<blockquote> <!-- Block quote as its a quote from the game -->
+			<p>
+				<i>Whether we wanted it or not, we've stepped into a war with the Cabal on Mars. So let's get to taking out their command, one by one. Valus Ta'aurc. From what I can gather, he commands the Siege Dancers from an Imperial Land Tank just outside of Rubicon. He's well protected, but with the right team, we can punch through those defenses, take this beast out, and break their grip on Freehold.</i> <!-- Italics because its a quote-->
+			</p>
+			<p>
+				<img src="images/destiny-icons-master/general/class_titan.svg" alt="Commander Zavala" width="20" height="20"><br>
+				<strong>Commander Zavala </strong><br> <!-- STRONG instead of b as this is the author of quote and BR used for line break   -->
+				<i>Destiny 2 </i> <!-- Source --> 
+			</p>		
+		</blockquote>	
+	</aside>
+	
+
+	
+<!-- ======== FOOTER AREA ======== -->
+<!-- ======== Description:  Footer for Homepage - Contact details + private policy ======== -->
+<!-- ======== Possible improvements:  Open source policy of content icons ? ======== -->	
+	<footer>
+		<p> 
+			D2RG&#8482; - Destiny 2 Resource & Guides  <br> 
+			<a href="docs/private_policy.pdf"><img src="images/creative_commons.svg" title="Creative Commons Policy" alt="Creative Commons " width="50" height="50"></a> <!-- temporary blank private policy doc attached but might need a full one due to the nature of copytight content -->
+			<a href="https://discord.gg/qS4Xqm6NTg" rel="external" target="_blank"><img src="images/discord_icon_plain.svg" title="Discord Server" alt="Discord" width="50" height="50"></a><!-- Valid Discord Link to s setup discord, is the bare bones -->
+			<a href="contact.html"><img src="images/bug_report.svg" title="Report a Bug" alt="Report a Bug" width="50" height="50"></a><br> <!-- Permanent footer note on how to report a bug, its likely to occur -->
+		</p>
+		
+		<address>
+			Contact Us: <a href="mailto:D2RGTeam@gmail.com"> D2RGTeam@gmail.com</a><br> <!-- email link to a email account that is setup --> 
+			Destiny 2 and all related media &#169; Bungie. <!-- copyright claim that note of the free use content available to the community is used without the free use license that is available due to Creative Commons -->
+		</address>
+	</footer>
+	
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
